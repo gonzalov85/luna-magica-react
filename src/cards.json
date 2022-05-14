@@ -1,0 +1,37 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "name": "El Mago",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/vPJ-mdS-lCD-tcA-Captura-de-pantalla-2021-02-03-a-las-20.03.49-198x300.png",
+            "negative": "Demasiado intelectual, escéptico, tendencia a fingir, indiferente engañoso",
+            "key": "Flexibilidad, intercambio de opiniones, potencial, independiente",
+            "advice": "Aclara tus ideas. Confía en tu memoria. Muestra tus aptitudes."
+        },
+        {
+            "id": 2,
+            "name": "La Sacerdotisa",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/mzL-the-c6V-1Fz-Captura-de-pantalla-2021-02-03-a-las-20.04.01-198x300.png",
+            "negative": "Supersticiosa, fría, fantasías incontrolables, papel pasivo",
+            "key": "Sentido común, buena memoria, información, enérgica, neutra",
+            "advice": "Estudia las flores, gemas y sus poderes curativos. No te entrometas en la vida de los demás. Pasa un día contemplando el mar. "
+        },
+
+        {
+            "id": 3,
+            "name": "La Emperatriz",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/m49-tia-Dxc-lDe-Captura-de-pantalla-2021-02-03-a-las-20.04.14-198x300.png",
+            "negative": "Falta de firmeza, tímida, miedo a envejecer, ofendida o rechazada",
+            "key": "Empatía, bondad, sabiduría, cariño, familia, embarazo, simpatía",
+            "advice": "Sé consciente de las necesidades de su cuerpo. Cultiva tu creatividad. Brinda amor a todos."
+        },
+        {
+            "id": 4,
+            "name": "El Emperador",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/N9m-Mhr-4Aj-1cT-Captura-de-pantalla-2021-02-03-a-las-20.04.26-198x300.png",
+            "negative": "Riguroso, vanidoso, dictatorial, intolerante, extremista, impaciente, egoísta, rivalidad",
+            "key": "Perseverancia, poder, deporte, competición, valiente, directo, autoestima",
+            "advice": "Sé trabajador y fiel a sus objetivos. No te subestimes. Lucha por tu independencia."
+        }
+    ]
+}
