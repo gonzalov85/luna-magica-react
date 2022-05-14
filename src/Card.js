@@ -1,7 +1,9 @@
 import Cards from './cards.json';
 
 function Card() {
-    var aCard = Cards[1];
+    var anId = Math.floor(Math.random() * 3);
+    var aCard = Cards[anId];
+    
     return (
     <div>
         <img src={aCard.url} className="" alt="logo" />
