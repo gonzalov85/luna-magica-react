@@ -1,5 +1,4 @@
-{
-    "cards": [
+[
         {
             "id": 1,
             "name": "El Mago",
@@ -33,5 +32,4 @@
             "key": "Perseverancia, poder, deporte, competición, valiente, directo, autoestima",
             "advice": "Sé trabajador y fiel a sus objetivos. No te subestimes. Lucha por tu independencia."
         }
-    ]
-}
+]

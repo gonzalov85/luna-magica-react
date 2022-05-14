@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Header';
 import Form from './Form';
+import Card from './Card';
 import Footer from './Footer';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <main  className="app-container">
           <Header />
           <Form />
+          <Card />
       </main>
       <footer className="footer">
         <Footer />
