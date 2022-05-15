@@ -31,5 +31,149 @@
             "negative": "Riguroso, vanidoso, dictatorial, intolerante, extremista, impaciente, egoísta, rivalidad",
             "key": "Perseverancia, poder, deporte, competición, valiente, directo, autoestima",
             "advice": "Sé trabajador y fiel a sus objetivos. No te subestimes. Lucha por tu independencia."
+        },
+        {
+            "id": 5,
+            "name": "El Hierofante",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/IwN-p62-pnu-zph-Captura-de-pantalla-2021-02-03-a-las-20.04.35-198x300.png",
+            "negative": "Sermoneador, inmoral, inflexible, hipócrita, ingrato",
+            "key": "Jerarquía, ética, vocación, honores, fraternidad, comunidad",
+            "advice": "Aprende a escuchar. Da crédito a los demás. Crea tus propios ritos para ganar coraje y eliminar los miedos."
+        },
+        {
+            "id": 6,
+            "name": "Los Enamorados",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/bSv-t4m-vX1-TVJ-Captura-de-pantalla-2021-02-03-a-las-20.04.44-198x300.png",
+            "negative": "Promiscuidad, inconstante, manipulador, falta de compromiso",
+            "key": "Relación intensa, intimidad, proximidad, considerado, fidelidad, amistad, unión",
+            "advice": "Evita encuentros inadecuados cuando buscas un amante. Habla abiertamente con tu pareja."
+        },
+        {
+            "id": 7,
+            "name": "El Carro",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/Kc9-aDl-yZA-0JD-Captura-de-pantalla-2021-02-03-a-las-20.04.51-198x300.png",
+            "negative": "Humor variable, desconectado, confusión, demasiado protector, distraído",
+            "key": "Confrontación, resolución, vínculo, maternal, selectivo, fortaleza",
+            "advice": "Convierte tu espacio en un lugar seguro. Aprende a concluir tareas. Protege tu cuerpo y cabeza del sol."
+        },
+        {
+            "id": 8,
+            "name": "La Justicia",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/XAL-965-xvh-yso-Captura-de-pantalla-2021-02-03-a-las-20.05.02-198x300.png",
+            "negative": "Indecisión, injusticia, enfermedad, caos, sufrimiento, prisión, desventaja",
+            "key": "Reajuste, diplomático, testigo, culpa, pacto, pena, castigo, sentencia",
+            "advice": "Sé imparcial y objetivo. Lucha contra las injusticias. Busca el equilibrio y la igualdad."
+        },
+        {
+            "id": 9,
+            "name": "El Ermitaño",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/84a-akN-FT7-yUe-Captura-de-pantalla-2021-02-03-a-las-20.05.09-198x300.png",
+            "negative": "Frialdad, extraño, soledad, insociable, aislamiento, rechaza la ayuda",
+            "key": "Estimación, valoración, modesto, pensador, reservado, selectivo",
+            "advice": "Echa una mano cuando sea necesario. No perjudique a las personas de buena voluntad. Busque la bondad en la gente."
+        },
+        {
+            "id": 10,
+            "name": "La Rueda de la Fortuna",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/NSH-HBE-6Yk-Gji-Captura-de-pantalla-2021-02-03-a-las-20.05.18-198x300.png",
+            "negative": "Demasiado optimista, altibajos, exceso, bebe en exceso",
+            "key": "Ciclos, caridad, obsequio, abundancia, prueba de fe, sociable, alegre",
+            "advice": "Valora tu buena fortuna. Desea buena suerte a los demás. No prometas lo que no puedas cumplir."
+        },
+        {
+            "id": 11,
+            "name": "La Fuerza",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/xKo-VqI-I8q-T63-Captura-de-pantalla-2021-02-03-a-las-20.05.26-198x300.png",
+            "negative": "Vanidad, lujuria, agresividad, impulsividad",
+            "key": "Compasión, generosidad, coraje, orgullo, creatividad, lealtad",
+            "advice": "Enciende una vela para renovar tus vínculos con el fuego. Pon tus conocimientos en acción."
+        },
+        {
+            "id": 12,
+            "name": "El Ahorcado",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/hvo-mrO-vQg-785-Captura-de-pantalla-2021-02-03-a-las-20.05.34-198x300.png",
+            "negative": "Influenciable, maleable, resignado, descuidado, confuso, victimista, esquivo",
+            "key": "Obediente, visiones, desinterés, bruma, calma, sacrificio",
+            "advice": "No te dejes influenciar por la opinión pública. No permitas que te digan que hacer o pensar. Busca la verdad, no escuches chismorreos."
+        },
+        {
+            "id": 13,
+            "name": "La Muerte",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/gYZ-xpa-Aq6-rIX-Captura-de-pantalla-2021-02-03-a-las-20.05.43-198x300.png",
+            "negative": "Agotamiento, celoso, egoísmo, apatía, acumulación, tóxico",
+            "key": "Secreto, resurrección, enigma, profundidad, dolor y placer, terror, cambio",
+            "advice": "No temas el cambio. Si fracasas, inténtalo de nuevo. Aprende a superar las pérdidas y sigue adelante."
+        },
+        {
+            "id": 14,
+            "name": "La Templanza",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/1TP-IEH-fWT-rGu-Captura-de-pantalla-2021-02-03-a-las-20.05.52-198x300.png",
+            "negative": "Atascada en el pasado, sensible al dolor, se resiste a aprender",
+            "key": "Honrada, enérgica, iluminación, fusión, misión",
+            "advice": "Practica la autocorrección. Si no puedes hacerlo sola busca ayuda."
+        },
+        {
+            "id": 15,
+            "name": "El Diablo",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/59W-obH-rdA-QOI-Captura-de-pantalla-2021-02-03-a-las-20.06.03-198x300.png",
+            "negative": "Ignorancia, codicia, intolerante, odio, represión, negación, terco, perverso",
+            "key": "Pensante, reflejo, compara, futuro, respeto, prudente, disciplinado, reservado",
+            "advice": "Aprende a reírte de tus problemas. Sé amable contigo mismo y los demás. Aprende a amar."
+        },
+        {
+            "id": 16,
+            "name": "La Torre",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/wRx-8lw-4jw-ETM-Captura-de-pantalla-2021-02-03-a-las-20.06.11-198x300.png",
+            "negative": "Vandalismo, confusión, error, ruina, caída, construir",
+            "key": "Repentina, agitación, advertencia, sorprendente, impetuosa",
+            "advice": "Debes estar preparado para cuando surjan problemas. No reprimas la ira, dirígela. Cambia las viejas formas."
+        },
+        {
+            "id": 17,
+            "name": "La Estrella",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/yQw-Rx0-WO1-bZ2-Captura-de-pantalla-2021-02-03-a-las-20.06.20-198x300.png",
+            "negative": "Racismo, dictadura, impersonal, represión, desconexión",
+            "key": "Ancla, avión, innovadores, ideales, comunión, posibilidades",
+            "advice": "Aprende sobre la agricultura orgánica. Restablece la paz. Aprende a reciclar y reduce los desechos."
+        },
+        {
+            "id": 18,
+            "name": "La Luna",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/yxz-vGU-K7Y-ioT-Captura-de-pantalla-2021-02-03-a-las-20.06.26-198x300.png",
+            "negative": "Enfermedades psicosomáticas, demasiado sensible, locura, delirio, vulnerable, angustia",
+            "key": "Sacrificio, maternal, sensibilidad, incitante",
+            "advice": "Sé consciente de tus reacciones y sentimientos. Analiza los sueños. Recuerda que tus miedos no se cumplirán."
+        },
+        {
+            "id": 19,
+            "name": "El Sol",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/DsW-j7S-2aG-Tn7-Captura-de-pantalla-2021-02-03-a-las-20.06.34-198x300.png",
+            "negative": "Quemador, cáncer de piel, ceguera, desperdicio de energía",
+            "key": "Auténtico, belleza, luminoso, vivo, armonioso, amor, definitivo",
+            "advice": "No abuses del sol. La vía luminosa conduce a la verdad."
+        },
+        {
+            "id": 20,
+            "name": "El Juicio",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/e5V-PY2-Gic-Zp4-Captura-de-pantalla-2021-02-03-a-las-20.06.42-198x300.png",
+            "negative": "Manipulador, fobia, obsesión, fanático",
+            "key": "Decisivo, alteración, reforma, análisis, presión",
+            "advice": "Sé más flexible. No juzgues a los demás ni a ti mismo."
+        },
+        {
+            "id": 21,
+            "name": "El Mundo",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/fNy-k1t-ILA-9fd-Captura-de-pantalla-2021-02-03-a-las-20.06.48-198x300.png",
+            "negative": "Martirio, cargas anteriores, falta de confianza",
+            "key": "Trabajo, deber, historia, sabio, fiable",
+            "advice": "Ayuda a quien te ha ayudado. Muéstrate agradecido por tu éxito. Actúa con confianza."
+        },
+        {
+            "id": 22,
+            "name": "El Loco",
+            "url": "https://www.zonadamas.mx/wp-content/uploads/2021/08/jFd-kCt-9Do-AgD-Captura-de-pantalla-2021-02-03-a-las-20.11.09-196x300.png",
+            "negative": "Irregular, caótico, irresponsable, ingenuo",
+            "key": "Absurdo, versátil, espontáneo, corazón joven, imprevisible",
+            "advice": "Rompe con la rutina. Busca intereses nuevos. Habla con gente nueva."
         }
 ]
