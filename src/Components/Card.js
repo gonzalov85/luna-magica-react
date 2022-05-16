@@ -34,7 +34,7 @@ function Card() {
                 <img src={card2.url} className="cardImage" alt="card" />
                 <div className='cardtextWrapper'>
                     <p className='cardName'><b>Nombre</b>: {card2.name}</p>
-                    <p className='cardText'><b>Aspecto Negativo</b>: {card1.negative}</p>
+                    <p className='cardText'><b>Aspecto Negativo</b>: {card2.negative}</p>
                     <p className='cardText'><b>Claves</b>: {card2.key}</p>
                     <p className='cardText'><b>Consejo</b>: {card2.advice}</p>
                 </div>
@@ -44,7 +44,7 @@ function Card() {
                 <img src={card3.url} className="cardImage" alt="card" />
                 <div className='cardtextWrapper'>
                 <p className='cardName'><b>Nombre</b>: {card3.name}</p>
-                <p className='cardText'><b>Aspecto Negativo</b>: {card1.negative}</p>
+                <p className='cardText'><b>Aspecto Negativo</b>: {card3.negative}</p>
                 <p className='cardText'><b>Claves</b>: {card3.key}</p>
                 <p className='cardText'><b>Consejo</b>: {card3.advice}</p>
                 </div>
