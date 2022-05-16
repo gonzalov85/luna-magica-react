@@ -1,9 +1,8 @@
 
 .App-logo {
-  height: 30vh;
+  height: 40vh;
   pointer-events: none;
 }
-
 
 .app-container {
   align-items: center;
@@ -15,11 +14,6 @@
   text-align: center;
 }
 
-
-
-.App-link {
-  color: #61dafb;
-}
 
 .ball{
   height: 10vh;
@@ -64,4 +58,27 @@
     display: block;
     justify-content: center;
   }
+}
+
+.cardName{
+  font-size: 1.2rem;
+}
+
+.cardText{
+  font-size: 1rem;
+}
+
+.card-subtitle{
+  color:rgb(173, 173, 173) !important;
+}
+
+.subtitle{
+  color:rgb(215, 210, 210) !important;
+  font-weight: bold !important;
+}
+
+.resultado{
+  font-style: italic;
+  text-decoration: underline;
+  margin-top: 2vh;
 }

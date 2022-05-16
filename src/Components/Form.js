@@ -13,7 +13,7 @@ function Form() {
 
     const findSign = (date) => {
       const days = [21, 20, 21, 21, 22, 22, 23, 24, 24, 24, 23, 22];
-      const signs = ["Acuario", "Piscis", "Aries", "Tauro", "Gemini", "Cancer", "Leo",  "Virgo", "Libra", "Escorpio", "Sagitario", "Capricornio"];
+      const signs = ["Acuario", "Piscis", "Aries", "Tauro", "Géminis", "Cancer", "Leo",  "Virgo", "Libra", "Escorpio", "Sagitario", "Capricornio"];
       let month = date.getMonth();
       let day = date.getDate();
       if(month == 0 && day <= 20){
@@ -45,7 +45,7 @@ function Form() {
             <p>
                 {title}
             </p>
-            <img src={ball} className="App-logo ball m-4" alt="ball" />
+            <img src={ball} className="App-logo ball mb-2" alt="ball" />
             <h5>Déjanos conocerte un poco más:</h5>
             
             <form className='myForm' onSubmit={handleSubmit}>
@@ -100,19 +100,18 @@ function Form() {
     } else {
       return (
         <section>
-          <p>{title}</p>
           <div className="d-flex justify-content-center">
           <div className="card">
             <div className="card-body">
                 <h5 className="card-title"><b>Nombre:</b> {name}</h5>
-                <h6 className="card-subtitle mb-2 text-muted"><b>Edad:</b> {age}</h6>
-                <h6 className="card-subtitle mb-2 text-muted"><b>Género:</b> {gender}</h6>
-                <h6 className="card-subtitle mb-2 text-muted"><b>Fecha Nacimiento:</b> {date}</h6>
-                <h6 className="card-subtitle mb-2 text-muted"><b>Signo:</b> {sign}</h6>     
+                <h6 className="card-subtitle mb-2 text-muted"><span className="subtitle">Edad:</span> {age}</h6>
+                <h6 className="card-subtitle mb-2 text-muted"><span className="subtitle">Género:</span> {gender}</h6>
+                <h6 className="card-subtitle mb-2 text-muted"><span className="subtitle">Fecha Nacimiento:</span> {date}</h6>
+                <h6 className="card-subtitle mb-2 text-muted"><span className="subtitle">Signo:</span> {sign}</h6>     
             </div>
           </div>
           </div>
-          
+          <p className='resultado'>{title}</p>
           <Card />
           <div className="m-3 text-center">
               <button type="button" className="btn btn-success text-light" onClick={handleSubmit}>Volver</button>
