@@ -1,4 +1,5 @@
 import logo from '../images/luna.png';
+import React from 'react';
 
 function Header() {
     return (

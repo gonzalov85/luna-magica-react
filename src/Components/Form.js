@@ -1,7 +1,7 @@
 import ball from '../images/ball.png';
 import React,{ useState } from 'react';
-import * as htmlToImage from 'html-to-image';
 import Card from './Card';
+import * as htmlToImage from 'html-to-image';
 
 
 
@@ -29,7 +29,15 @@ function Form() {
    };
     
   
-
+   function downloadImage(){
+    htmlToImage.toJpeg(document.getElementById('printMe'), { quality: 0.95 })
+    .then(function (dataUrl) {
+      var link = document.createElement('a');
+      link.download = 'my-image-name.jpeg';
+      link.href = dataUrl;
+      link.click();
+    });
+  }
 
     function handleSubmit(){
       if (isCompleted === false){
@@ -42,18 +50,6 @@ function Form() {
         setIsTittle('Consulta de Tarot');
       }
     }
-
-
-    function downloadImage(){
-      htmlToImage.toJpeg(document.getElementById('my-node'), { quality: 0.95 })
-      .then(function (dataUrl) {
-        var link = document.createElement('a');
-        link.download = 'my-image-name.jpeg';
-        link.href = dataUrl;
-        link.click();
-      });
-    }
-
     
     if(isCompleted === false){
       return (
@@ -117,26 +113,26 @@ function Form() {
       return (
         <section>
           <div id='printMe'>
-            <div className="d-flex justify-content-center">
-            <div className="card">
-              <div className="card-body">
-                  <h5 className="card-title"><b>Nombre:</b> {name}</h5>
-                  <h6 className="card-subtitle mb-2 text-muted"><span className="subtitle">Edad:</span> {age}</h6>
-                  <h6 className="card-subtitle mb-2 text-muted"><span className="subtitle">Género:</span> {gender}</h6>
-                  <h6 className="card-subtitle mb-2 text-muted"><span className="subtitle">Fecha Nacimiento:</span> {date}</h6>
-                  <h6 className="card-subtitle mb-2 text-muted"><span className="subtitle">Signo:</span> {sign}</h6>     
+              <div className="d-flex justify-content-center">
+              <div className="card">
+                <div className="card-body">
+                    <h5 className="card-title"><b>Nombre:</b> {name}</h5>
+                    <h6 className="card-subtitle mb-2 text-muted"><span className="subtitle">Edad:</span> {age}</h6>
+                    <h6 className="card-subtitle mb-2 text-muted"><span className="subtitle">Género:</span> {gender}</h6>
+                    <h6 className="card-subtitle mb-2 text-muted"><span className="subtitle">Fecha Nacimiento:</span> {date}</h6>
+                    <h6 className="card-subtitle mb-2 text-muted"><span className="subtitle">Signo:</span> {sign}</h6>     
+                </div>
               </div>
+              </div>
+              <p className='resultado'>{title}</p>
+              <Card />
             </div>
+            <div className="m-3 text-center">
+                <button type="button" className="btn btn-success text-light" onClick={handleSubmit}>Volver</button>
             </div>
-            <p className='resultado'>{title}</p>
-            <Card />
-          </div>
-          <div className="m-3 text-center">
-              <button type="button" className="btn btn-success text-light" onClick={handleSubmit}>Volver</button>
-          </div>
-          <div className="m-3 text-center">
-              <button type="button" id="print" className="btn btn-success text-light" onClick={downloadImage}>Descargar Resultado</button>
-          </div>
+            <div className="m-3 text-center">
+                <button type="button" id="print" className="btn btn-success text-light" onClick={downloadImage}>Descargar Resultado</button>
+            </div>
           
         </section>
         

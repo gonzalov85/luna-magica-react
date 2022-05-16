@@ -1,3 +1,4 @@
+import React from 'react';
 import Cards from '../Data/cards.json';
 
 function Card() {
@@ -15,39 +16,39 @@ function Card() {
     }
     var card3 = Cards[idCard3];
     
-    
+
     return (
-    <div className='container card-container justify-content-around p-3'>
-        <div className='aCard col-xl-3 col-md-1 col-sm-1'>
-            <h4>Pasado</h4>
-            <img src={card1.url} className="cardImage" alt="card" />
-            <div className='cardtextWrapper'>
-            <p className='cardName'><b>Nombre</b>: {card1.name}</p>
-            <p className='cardText'><b>Aspecto Negativo</b>: {card1.negative}</p>
-            <p className='cardText'><b>Claves</b>: {card1.key}</p>
-            <p className='cardText'><b>Consejo</b>: {card1.advice}</p>
-            </div>
-        </div>
-        <div className='aCard col-xl-3 col-md-1 col-sm-1'>
-            <h4>Presente</h4>
-            <img src={card2.url} className="cardImage" alt="card" />
-            <div className='cardtextWrapper'>
-                <p className='cardName'><b>Nombre</b>: {card2.name}</p>
+    <div className='container card-container justify-content-around'>
+            <div className='aCard col-xl-3 col-md-12 col-sm-12'>
+                <h4>Pasado</h4>
+                <img src={card1.url} className="cardImage" alt="card" />
+                <div className='cardtextWrapper'>
+                <p className='cardName'><b>Nombre</b>: {card1.name}</p>
                 <p className='cardText'><b>Aspecto Negativo</b>: {card1.negative}</p>
-                <p className='cardText'><b>Claves</b>: {card2.key}</p>
-                <p className='cardText'><b>Consejo</b>: {card2.advice}</p>
+                <p className='cardText'><b>Claves</b>: {card1.key}</p>
+                <p className='cardText'><b>Consejo</b>: {card1.advice}</p>
+                </div>
             </div>
-        </div>
-        <div className='aCard col-xl-3 col-md-1 col-sm-1'>
-            <h4>Futuro</h4>
-            <img src={card3.url} className="cardImage" alt="card" />
-            <div className='cardtextWrapper'>
-            <p className='cardName'><b>Nombre</b>: {card3.name}</p>
-            <p className='cardText'><b>Aspecto Negativo</b>: {card1.negative}</p>
-            <p className='cardText'><b>Claves</b>: {card3.key}</p>
-            <p className='cardText'><b>Consejo</b>: {card3.advice}</p>
+            <div className='aCard col-xl-3 col-md-12 col-sm-12'>
+                <h4>Presente</h4>
+                <img src={card2.url} className="cardImage" alt="card" />
+                <div className='cardtextWrapper'>
+                    <p className='cardName'><b>Nombre</b>: {card2.name}</p>
+                    <p className='cardText'><b>Aspecto Negativo</b>: {card1.negative}</p>
+                    <p className='cardText'><b>Claves</b>: {card2.key}</p>
+                    <p className='cardText'><b>Consejo</b>: {card2.advice}</p>
+                </div>
             </div>
-        </div>
+            <div className='aCard col-xl-3 col-md-12 col-sm-12'>
+                <h4>Futuro</h4>
+                <img src={card3.url} className="cardImage" alt="card" />
+                <div className='cardtextWrapper'>
+                <p className='cardName'><b>Nombre</b>: {card3.name}</p>
+                <p className='cardText'><b>Aspecto Negativo</b>: {card1.negative}</p>
+                <p className='cardText'><b>Claves</b>: {card3.key}</p>
+                <p className='cardText'><b>Consejo</b>: {card3.advice}</p>
+                </div>
+            </div>
     </div>
     );
     
