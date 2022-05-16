@@ -17,3 +17,9 @@ code {
   height: 100%;
   width: 100%;
 }
+
+.card{
+  background-color: #5a3aac;
+  width: 50vw;
+  border: 1px gray solid;
+}

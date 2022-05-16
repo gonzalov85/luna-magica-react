@@ -17,7 +17,7 @@ function Card() {
     
     
     return (
-    <div className='container card-container justify-content-around'>
+    <div className='container card-container justify-content-around p-3'>
         <div className='aCard col-xl-3 col-md-1 col-sm-1'>
             <h4>Pasado</h4>
             <img src={card1.url} className="cardImage" alt="card" />
