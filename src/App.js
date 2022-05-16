@@ -1,8 +1,9 @@
 import './App.css';
-import Header from './Header';
-import Form from './Form';
-import Card from './Card';
-import Footer from './Footer';
+import Header from './Components/Header';
+import Form from './Components/Form';
+
+import Footer from './Components/Footer';
+import React from 'react';
 
 function App() {
   return (
@@ -10,7 +11,6 @@ function App() {
       <main  className="app-container">
           <Header />
           <Form />
-          <Card />
       </main>
       <footer className="footer">
         <Footer />

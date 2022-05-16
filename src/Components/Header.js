@@ -1,4 +1,4 @@
-import logo from './images/luna.png';
+import logo from '../images/luna.png';
 
 function Header() {
     return (
@@ -6,9 +6,6 @@ function Header() {
                 <header>
                     <img src={logo} className="App-logo" alt="logo" />
                     <h3>Luna Mágica</h3>
-                    <p>
-                        Consulta de tarot
-                    </p>
                 </header>
             </div>
     );
